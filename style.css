@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.body-home, .body-login {
+	background: url(img/gif\ 2.gif);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.black-fill {
+	background: rgba(0,0,0, 0.7);
+	min-height: 100vh;
+}
+#homeNav {
+	background: rgba(255,255,255, 0.5) !important;
+}
+.welcome-text {
+	min-height: 80vh;
+}
+.welcome-text img {
+	width: 100px;
+}
+.welcome-text h4 {
+	color: #eee;
+	font-size: 51px;
+	font-family: 'Lobster', cursive;
+
+}
+.welcome-text p {
+	color: #222;
+	background: rgba(255,255,255, 0.5);
+	padding: 5px;
+	border-radius: 4px;
+}
+#about {
+	min-height: 100vh;
+}
+#about .card-1{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#about .card-1 h5{
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+}
+
+#contact {
+	min-height: 100vh;
+}
+#contact form{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#contact form h3 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+textarea {
+	resize: none;
+}
+
+.login {
+	max-width: 500px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 10px;
+	border-radius: 10px;
+}
+.login h3{
+	text-align: center;
+	font-size: 50px;
+}
+
+.home, .body-login {
+	background: url(img/gif\ 2.gif);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.this {
+	text-align: left;
+}
+
+
+.container {
+text-align: center;
+
+}
+
+.side {
+	text-align: left;
+	font-size: 100px;
+}
+
+.container1 {
+	max-width: 800px;
+	padding-left: 150px;
+	padding-right: 150px;
+	text-align: center;
+	font-size: 40px;
+	text-align: center;
+}
+
+.side10 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 200px;
+	color: aliceblue;
+}
+
+.side11 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	color: aliceblue;
+}
+
+.computersystem {
+	background: url(img/bg1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+.container5 {
+	max-width: 800px;
+	margin: 30px auto;
+	padding-left: 150px;
+	padding-right: 150px;
+	background-color: black;
+	box-shadow: 0 0 5px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.side5 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+}
+
+.container6 {
+
+color: aliceblue;
+font-size: 200px;
+}
+
+
+
+.container7 {
+	max-width: 800px;
+	margin: 30px auto;
+	padding-left: 150px;
+	padding-right: 150px;
+	
+	
+	text-align: right;
+	font-size: 20px;
+}
+
+.side6 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+.container7, h6 {
+	color: aliceblue;
+	text-align: center;
+}
+
+
+
+
+
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+.caption {
+	text-align: center;
+	color: aliceblue;
+	text-align: center;
+	
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+span {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(#808080, #000000);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+   transition: background-size .7s, background-position .5s ease-in-out;
+   text-align: right;
+}
+
+span:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
